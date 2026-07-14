@@ -5,6 +5,8 @@ int main(void)
 {
 int choice;   
 
+do
+{
 printf("Simple Calculator\n");
 printf("1) Add\n");
 printf("2) Subtract\n");
@@ -22,8 +24,13 @@ if (choice < 0 || choice > 4)
 }
 if (choice == 0)
 {
+
 printf("Bye!\n");
 }
-     	return (0);
+}
+while (choice != 0);
+ 
+
+return (0);
 	}
 
