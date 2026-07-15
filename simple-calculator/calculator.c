@@ -3,7 +3,7 @@
 int main(void)
 
 {
-int choice;   
+int choice, A, B, Result;
 
 do
 {
@@ -27,6 +27,22 @@ if (choice == 0)
 
 printf("Bye!\n");
 }
+
+
+if (choice == 1)
+{
+printf("A: ");
+	
+scanf("%d",&A);
+
+printf("B: ");
+
+scanf("%d",&B);
+
+Result = A + B;
+printf("Result: %d\n", Result);
+}
+
 }
 while (choice != 0);
  
