@@ -43,6 +43,22 @@ Result = A + B;
 printf("Result: %d\n", Result);
 }
 
+if (choice == 2)
+{
+printf("A: ");
+
+scanf("%d",&A);
+
+printf("B: ");
+
+scanf("%d",&B);
+
+Result = A - B;
+printf("Result: %d\n", Result);
+}
+
+
+
 }
 while (choice != 0);
  
