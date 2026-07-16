@@ -24,4 +24,12 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 <main.c> <file.c> -o <output>
 | `8-print_array.c` | Prints n elements of an int array |
 | `9-strcpy.c` | Copies a string, including the null byte |
 | `100-atoi.c` | Converts a string to an integer |
+| `0-strcat.c` | Concatenates two strings |
+| `1-strncat.c` | Concatenates two strings, using at most n bytes from src |
+| `2-strncpy.c` | Copies at most n bytes from src to dest |
+| `3-strcmp.c` | Compares two strings |
+| `4-rev_array.c` | Reverses the content of an array of integers |
+| `5-string_toupper.c` | Converts lowercase letters of a string to uppercase |
+| `6-cap_string.c` | Capitalizes all words of a string |
+| `7-leet.c` | Encodes a string into 1337 |
 | `main.h` | Function prototypes |
