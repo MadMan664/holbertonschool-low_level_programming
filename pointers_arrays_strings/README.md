@@ -32,4 +32,12 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 <main.c> <file.c> -o <output>
 | `5-string_toupper.c` | Converts lowercase letters of a string to uppercase |
 | `6-cap_string.c` | Capitalizes all words of a string |
 | `7-leet.c` | Encodes a string into 1337 |
+| `0-memset.c` | Fills memory with a constant byte |
+| `1-memcpy.c` | Copies a memory area |
+| `2-strchr.c` | Locates a character in a string |
+| `3-strspn.c` | Gets the length of a prefix substring |
+| `4-strpbrk.c` | Searches a string for any of a set of bytes |
+| `5-strstr.c` | Locates a substring |
+| `7-print_chessboard.c` | Prints an 8x8 chessboard |
+| `8-print_diagsums.c` | Prints the sum of both diagonals of a square matrix |
 | `main.h` | Function prototypes |
