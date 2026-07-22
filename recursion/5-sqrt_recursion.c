@@ -7,7 +7,7 @@
  *
  * Return: candidate if it is the natural square root, -1 if none exists
  */
-static int sqrt_helper(int n, int candidate)
+int sqrt_helper(int n, int candidate)
 {
 	if (candidate * candidate == n)
 		return (candidate);
