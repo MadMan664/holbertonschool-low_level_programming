@@ -1,0 +1,4 @@
+ai_memory_visualizer_valgrind_tracer/programs/aliasing_example
+ai_memory_visualizer_valgrind_tracer/programs/crash_example
+ai_memory_visualizer_valgrind_tracer/programs/heap_example
+ai_memory_visualizer_valgrind_tracer/programs/stack_example
